@@ -2,10 +2,10 @@
 
 const fs = require('fs');
 const cheerio = require('cheerio');
+const path = require('path');
 
-const filepath = process.argv[1];
-
-const content = fs.readFileSync(`${filepath}/demo.html`, 'utf8');
+const filepath = process.argv[2];
+const content = fs.readFileSync(path.resolve(`${filepath}/demo.html`), 'utf8');
 
 const $ = cheerio.load(content);
 
