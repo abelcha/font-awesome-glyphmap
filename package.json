@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "bin": {
-    "font-awesome-glyphmap": "index.js",
+    "font-awesome-glyphmap": "index.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
