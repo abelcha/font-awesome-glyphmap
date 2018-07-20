@@ -1,0 +1,14 @@
+{
+  "name": "font-awesome-glyphmap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "font-awesome-glyphmap": "index.js",
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "lodash": "^4.17.10",
+    "minimist": "^1.2.0"
+  }
+}
