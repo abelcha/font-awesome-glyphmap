@@ -1,7 +1,7 @@
 const fs = require('fs');
 const cheerio = require('cheerio');
 
-const filepath = process.argv[2];
+const filepath = process.argv[1];
 
 const content = fs.readFileSync(`${filepath}/demo.html`, 'utf8');
 
